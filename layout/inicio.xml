@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:gravity="center_horizontal">
+    <TableRow>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/paddingRightLeft"
+            android:paddingLeft="@dimen/paddingRightLeft"
+            android:paddingTop="@dimen/paddingTop"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/fab_margin2">
+                <ImageView
+                    android:id="@+id/imgEmpleo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/nuevoempleo"
+                    android:onClick="aOpcionDeMenu"
+                    ></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/menu_ofertas"
+                    android:textSize="@dimen/veinticuatrosp"
+                   ></TextView>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/numOfertasEmpleo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="300"
+                android:textSize="@dimen/dieciochosp"></TextView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/paddingRightLeft"
+            android:paddingLeft="@dimen/paddingRightLeft"
+            android:paddingTop="@dimen/paddingTop">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/imgFormacion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/nuevaformacion"
+                    android:onClick="aOpcionDeMenu"
+                    ></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/menu_formacion"
+                    android:textSize="@dimen/veinticuatrosp"></TextView>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/numOfertasFormacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1356"
+                android:textSize="@dimen/dieciochosp"></TextView>
+
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/paddingRightLeft"
+            android:paddingLeft="@dimen/paddingRightLeft"
+            android:paddingTop="@dimen/padddingTopSmall">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/imgConfiguracion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/configuracion"
+                    android:onClick="aOpcionDeMenu"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/menu_configuracion"
+                    android:textSize="@dimen/veinticuatrosp"></TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/paddingRightLeft"
+            android:paddingLeft="@dimen/paddingRightLeft"
+            android:paddingTop="@dimen/padddingTopSmall">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/imgFavoritos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/favoritos"
+                    android:onClick="aOpcionDeMenu"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/menu_favoritos"
+                    android:textSize="@dimen/veinticuatrosp"></TextView>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/numFavoritos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="23"
+                android:textSize="@dimen/dieciochosp"></TextView>
+
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/paddingRightLeft"
+            android:paddingLeft="@dimen/paddingRightLeft"
+            android:paddingTop="@dimen/padddingTopSmall">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/imgAbout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/about"
+                    android:onClick="aOpcionDeMenu"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/menu_acerca"
+                    android:textSize="@dimen/veinticuatrosp"></TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/paddingRightLeft"
+            android:paddingLeft="@dimen/paddingRightLeft"
+            android:paddingTop="@dimen/padddingTopSmall">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/imgCompartir"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/compartir"
+                    android:onClick="aOpcionDeMenu"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/menu_compartir"
+                    android:textSize="@dimen/veinticuatrosp"></TextView>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </TableRow>
+
+
+
+</TableLayout>

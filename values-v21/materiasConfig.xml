@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="materiasConfig">
+        <item>@string/fisicasydeportivas</item>
+        <item>@string/administraciongestion</item>
+        <item>@string/agraria</item>
+        <item>@string/artesgraficas</item>
+        <item>@string/artesartesanias</item>
+        <item>@string/comerciomarketing</item>
+        <item>@string/edificacionobracivil</item>
+        <item>@string/energiaagua</item>
+        <item>@string/electricidadelectronica</item>
+        <item>@string/fabricacionmecanica</item>
+        <item>@string/formacioncomplementaria</item>
+        <item>@string/hosteleriaturismo</item>
+        <item>@string/imagenpersonal</item>
+        <item>@string/imagensonido</item>
+        <item>@string/insdustriasalimentarias</item>
+        <item>@string/insdustriasextractivas</item>
+        <item>@string/informaticacaomunicaciones</item>
+        <item>@string/instalacionmantenimiento</item>
+        <item>@string/maderamueblecorcho</item>
+        <item>@string/maritimopesquera</item>
+        <item>@string/quimica</item>
+        <item>@string/sanidad</item>
+        <item>@string/seguridadmedioambiente</item>
+        <item>@string/serviciossocioculturales</item>
+        <item>@string/textil</item>
+        <item>@string/transporte</item>
+        <item>@string/vidrio</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".oferta_individual">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:id="@+id/cardView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/fuenteImg"
+                android:src="@drawable/unnamed"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/cientotreintadp"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="@dimen/fab_marginCuarto"></ImageView>
+
+            <TextView
+                android:id="@+id/tituloText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="@dimen/fab_margin2"
+                android:layout_marginTop="@dimen/margin_top_formacion_individual"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:text="TITULO OFERTA"
+                android:textStyle="bold"></TextView>
+            <TextView
+                android:id="@+id/lugarText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:text="lugar_oferta"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="@dimen/fab_margin2"
+                android:layout_marginTop="@dimen/fab_marginCuarto"></TextView>
+
+            <TextView
+                android:id="@+id/fechaText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="@dimen/fab_margin2"
+                android:layout_marginTop="@dimen/fab_marginCuarto"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:text="FECHA PUBLICACION"
+                android:textStyle="italic"></TextView>
+
+            <ScrollView
+                android:id="@+id/scrollView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="@dimen/fab_margin2"
+                android:layout_marginTop="@dimen/margin_top_formacion_individual">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+
+
+
+                    <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                        >
+
+
+                            <TextView
+                                android:id="@+id/descripcionText"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:linksClickable="true"
+                                android:text="DESCRIPCION OFERTA OFERTA"
+                                ></TextView>
+
+                        </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/enlaces"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="2dp"
+                        android:orientation="horizontal"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/lineaSeparadora"
+                        android:layout_centerHorizontal="true"
+                       >
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/microsoft"></ImageButton>
+
+                        <TextView
+                            android:id="@+id/irContenido"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Ir al contenido"></TextView>
+
+                        <androidx.legacy.widget.Space
+                            android:layout_width="20dp"
+                            android:layout_height="0sp"></androidx.legacy.widget.Space>
+
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:onClick="compartirOferta"
+                            android:src="@drawable/ic_menu_share"></ImageButton>
+
+                        <TextView
+                            android:id="@+id/compartirText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:clickable="true"
+                            android:onClick="compartirOferta"></TextView>
+
+                        <androidx.legacy.widget.Space
+                            android:layout_width="50dp"
+                            android:layout_height="0sp"></androidx.legacy.widget.Space>
+
+                        <ImageButton
+                            android:id="@+id/botonFavorito"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/estrella"
+                            android:background="@android:color/transparent"></ImageButton>
+
+                        <androidx.legacy.widget.Space
+                            android:layout_width="20dp"
+                            android:layout_height="0sp"></androidx.legacy.widget.Space>-->
+
+                        <ImageButton
+                            android:id="@+id/botonBorrar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/basura"
+                            android:background="@android:color/transparent"></ImageButton>
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/lineaSeparadora"
+                        android:layout_width="1dp"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="70dp"
+                        android:layout_marginEnd="411dp"
+                        android:background="@android:color/black"
+                         />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

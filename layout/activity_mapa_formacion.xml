@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/hibrido"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="cambiarHibrido"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/satelital"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="cambiarSatelital"
+            android:src="@drawable/satelite"></ImageButton>
+
+        <ImageButton
+        android:id="@+id/terreno"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+            android:onClick="cambiarTerreno"></ImageButton>
+        <ImageButton
+            android:id="@+id/normal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="cambiarNormal"></ImageButton>
+
+
+
+    </LinearLayout>-->
+
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Mapa" />
+
+
+</LinearLayout>

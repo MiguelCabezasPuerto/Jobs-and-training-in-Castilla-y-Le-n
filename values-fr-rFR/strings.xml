@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EmpleNews</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Démarrage</string>
+    <string name="menu_ofertas">Emploi</string>
+    <string name="menu_formacion">Formation</string>
+    <string name="menu_configuracion">Configuration</string>
+    <string name="menu_favoritos">Favourites</string>
+    <string name="menu_acerca">À propos de</string>
+    <string name="menu_compartir">Partager</string>
+    <string name="title_activity_maps1">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_configuracion_usuario">ConfiguracionUsuario</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="idioma">Langage</string>
+    <string name="provincia">Province</string>
+    <string name="espana">Espagnol</string>
+    <string name="francia">Français</string>
+    <string name="uk">Anglais</string>
+
+    <string name="botonbuscar">Chercher</string>
+    <string name="about_info">Dans l\'application EmploNews pour les appareils mobiles Android, vous pouvez accéder aux offres d\'emploi et cours de formation en Castille et León.</string>
+    <string name="more_about_info">L\'application dispose également d\'une zone de configuration où vous pouvez sélectionner votre langue  et votre province préferée. Vous pouvez également enregistrer vos
+    offres et cours préférés pour les consulter plus rapidement via le menu Favoris</string>
+    <string name="another_about_info">Pour tout problème technique, contactez l\'entité en charge: </string>
+    <string name="correo_contacto">miguelcabezaspuerto@usal.es</string>
+    <string name="subject_correo">Problème avec l\'app EmpleNews</string>
+    <string name="caracteristicas_dispositivo">Caracteristiques de l\'appareil:</string>
+    <string name="descripcion_problema_app">Description du problème:</string>
+    <string name="empleo">Boulots</string>
+    <string name="cursos">Cours</string>
+
+
+    <string name="familias">Familias</string>
+    <string name="todas">Toutes</string>
+    <string name="fisicasydeportivas">Actividades Físicas y Deportivas</string>
+    <string name="administraciongestion">Administración y Gestión</string>
+    <string name="agraria">Agraria</string>
+    <string name="artesgraficas">Artes Gráficas</string>
+    <string name="artesartesanias">Artes y artesanías</string>
+    <string name="comerciomarketing">Comercio y Marketing</string>
+    <string name="edificacionobracivil">Edificación y Obra Civil</string>
+    <string name="energiaagua">Energía y Agua</string>
+    <string name="electricidadelectronica">Electricidad y Electrónica</string>
+    <string name="fabricacionmecanica">Fabricación Mecánica</string>
+    <string name="formacioncomplementaria">Formación Complementaria</string>
+    <string name="hosteleriaturismo">Hostelería y Turismo</string>
+    <string name="imagenpersonal">Imagen Personal</string>
+    <string name="imagensonido">Imagen y Sonido</string>
+    <string name="insdustriasalimentarias">Industrias Alimentarias</string>
+    <string name="insdustriasextractivas">Industrias Extractivas</string>
+    <string name="informaticacaomunicaciones">Informática y Comunicaciones</string>
+    <string name="instalacionmantenimiento">Instalación y Mantenimiento</string>
+    <string name="maderamueblecorcho">Madera, Mueble y Corcho</string>
+    <string name="maritimopesquera">Marítimo Pesquera</string>
+    <string name="quimica">Química</string>
+    <string name="sanidad">Sanidad</string>
+    <string name="seguridadmedioambiente">Seguridad y Medioambiente</string>
+    <string name="serviciossocioculturales">Servicios Socioculturales y a la Comunidad</string>
+    <string name="textil">Textil, Confección y Piel</string>
+    <string name="transporte">Transporte y mantenimiento de vehículos</string>
+    <string name="vidrio">Vidrio y Cerámica</string>
+
+    <string name="autocompleteEmpleo">Cherchez votre emploi</string>
+    <string name="autocompleteFormacion">Cherchez votre cours</string>
+    <string name="miconfiguracion">Ma Configuration</string>
+    <string name="numCursos">cours</string>
+    <string name="numOfertas">emplois</string>
+    <string name="numerodeofertas">Num. de emplois</string>
+    <string name="iracontenido">Accéder au contenu</string>
+    <string name="publicadoel">Publié(e) le: </string>
+    <string name="fechas">Dates</string>
+    <string name="lugar">Lieu: </string>
+    <string name="fuente">Source</string>
+    <string name="duracion">Duration: </string>
+    <string name="destinatarios">Destinataires: </string>
+    <string name="formasinscripcion">Inscription via</string>
+    <string name="versionandroid">Android Version: </string>
+    <string name="versionapp">App version: </string>
+    <string name="compartirvia">Partager via</string>
+    <string name="sinconexionainternet">Sans conection</string>
+    <string name="error">Error: </string>
+    <string name="actualizadacarga">Charge correcte</string>
+    <string name="sindatos">Sans info disponible</string>
+    <string name="sinclientecorreo">Vous n\'avez pas aucun client mail</string>
+    <string name="guardadoexitoso">Sauvegardé avec success</string>
+    <string name="sinofertas">Sans offers disponibles</string>
+    <string name="eliminadoexistoso">Supprimé avec succès</string>
+    <string name="guardadofallido">Ups il y a eu quelques erreurs... Essayez un autre fois</string>
+    <string name="activarubicacion">Activez l\'emplacement de votre dispositive</string>
+    <string name="sinfavoritosempleo">Aucun emploi favori</string>
+    <string name="sinfavoritosformacion">Aucun cours favori</string>
+    <string name="errorxml">Erreurs à la lecture</string>
+    <string name="ayudaConfiguracion">Dans cette option, vous pouvez choisir la province et le domaine de formation que vous souhaitez par défaut dans la recherche d\'
+offres. Si vous n\'entrez pas de province et / ou de filtre sujet dans la recherche d\'offres, celles de votre configuration seront prises. En tant que valeurs par défaut, votre configuration inclut toutes les provinces et tous les matériaux possibles </string>
+    <string name="aceptar">Compris</string>
+</resources>
